@@ -4606,7 +4606,8 @@ img.replacer, img.hideOnHover {
   .slogan1.big {
     font-size: 72px;
     line-height: 80px;
-    font-weight: 300; }
+    font-weight: 300; 
+    text-align: center; }
   @media only screen and (max-width: 767px) {
     .slogan1 {
       font-size: 36px;
@@ -5118,7 +5119,8 @@ img.replacer, img.hideOnHover {
 #featured-app {
   overflow: hidden;
   background-color: #bdd7db;
-  z-index: 2; }
+  z-index: 2; 
+  margin-top: 100px; }
   #featured-app .app-screenshot {
     position: relative;
     top: -30px;
@@ -6471,4 +6473,4 @@ video {
 /*# sourceMappingURL=style.css.map */
 
 /*Edições*/
-#featured-in.page_section{ background: #F1F1F1; margin-top: 100px;}
+#featured-in.page_section{ background: #F1F1F1;}
