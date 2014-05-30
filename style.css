@@ -5700,7 +5700,7 @@ ul.download-buttons {
 .call-to-action {
   position: relative;
   z-index: 2;
-  padding-bottom: 60px; }
+  padding-bottom: 20px; }
   .call-to-action .fourcol a {
     overflow: hidden;
     display: block; }
@@ -6462,3 +6462,6 @@ video {
     top: 10px !important; } }
 
 /*# sourceMappingURL=style.css.map */
+
+/*Edições*/
+#featured-in.page_section{ background: #DADADA; margin-top: 100px;}
