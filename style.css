@@ -1267,7 +1267,7 @@ since not everything will fit there */
     color: #bbb; }
 
 /*--------------------------------------------------------------------*/
-/*	Responsive Flex Slider Styles
+/*  Responsive Flex Slider Styles
 /*--------------------------------------------------------------------*/
 /* * jQuery FlexSlider v2.0 * http://www.woothemes.com/flexslider/ * */
 /* Browser Resets */
@@ -1548,7 +1548,7 @@ ol.flexlite-control-nav.flexlite-control-paging {
   display: none; }
 
 /*--------------------------------------------------------------------*/
-/*	OTHER SLIDERS - NIVO
+/*  OTHER SLIDERS - NIVO
 /*--------------------------------------------------------------------*/
 /* === The Nivo Slider styles - do not modify unless you know what you are doing == */
 /* === For customization, see below === */
@@ -5118,9 +5118,9 @@ img.replacer, img.hideOnHover {
 
 #featured-app {
   overflow: hidden;
-  background-color: #bdd7db;
+  background-color: #FFFFFF;
   z-index: 2; 
-  margin-top: 100px; }
+ }
   #featured-app .app-screenshot {
     position: relative;
     top: -30px;
@@ -5159,7 +5159,7 @@ img.replacer, img.hideOnHover {
     .features-list-alternate .row.last {
       margin-bottom: 0; }
   .features-list-alternate .iphone-slider-container, .features-list-alternate .ipad-slider-container {
-    margin-top: -350px; }
+    margin-top: -180px; }
     @media only screen and (max-width: 959px) {
       .features-list-alternate .iphone-slider-container, .features-list-alternate .ipad-slider-container {
         margin-top: 0; } }
@@ -5168,7 +5168,7 @@ img.replacer, img.hideOnHover {
       margin-bottom: 0; } }
 
 #home2-heading, #home3-heading {
-  padding: 60px 0 320px; }
+  padding: 60px 0 140px; }
   #home2-heading .heading2 h2, #home3-heading .heading2 h2 {
     background: #fe5000;
     background: rgba(254, 80, 0, 0.7); }
@@ -6473,4 +6473,5 @@ video {
 /*# sourceMappingURL=style.css.map */
 
 /*Edições*/
-#featured-in.page_section{ background: #F1F1F1;}
+#featured-in.page_section, #slogan.segment{ background: #F1F1F1;}
+.segment.dark-bg.parallax-background.parallax-banner{ padding: 200px 0!important;}
