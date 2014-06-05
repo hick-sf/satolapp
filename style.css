@@ -481,10 +481,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 select {
   display: block;
   outline: none;
-  width: 300px;
+  width: 545px;
   border: 1px solid #e7e7e7;
-  padding: 10px 5px 10px 10px;
-  margin: 0;
+  padding: 14px 5px 14px 10px;
+  margin: 1px 0 0 0;
   max-width: 100%;
   font-family: inherit;
   color: inherit;
